@@ -1,0 +1,62 @@
+
+File & Directory Management
+
+1. pwd — Print the path of your current working directory.
+2. ls — List files and folders in a directory (e.g., ls -la shows hidden files and permissions).
+3. cd — Change to another directory (e.g., cd /var/log or cd .. to go up one level).
+4. mkdir — Create a new directory.
+5. rmdir — Delete an empty directory.
+6. touch — Create an empty file or update a file's timestamp.
+7. cp — Copy files or directories (use -r for folders).
+8. mv — Move or rename files and directories.
+9. rm — Delete files or directories (use -r for folders; be careful, there is no trash bin).
+10. ln — Create links (shortcuts) to files or folders (usually ln -s for symbolic links).
+11. find — Search for files and folders by name, size, or modification time.
+
+Viewing & Editing Files
+
+12. cat — Display the entire contents of a file in the terminal.
+13. less — View large files one page at a time with scrolling.
+14. head — Show the first 10 lines of a file.
+15. tail — Show the last 10 lines of a file (use tail -f to watch live log updates).
+16. nano — Open a simple, beginner-friendly terminal text editor.
+17. vim — Open a powerful, keyboard-driven text editor (also vi).
+18. diff — Compare two files line by line to spot differences.
+
+Text Search & Processing
+
+19. grep — Search for specific text or patterns inside files or command outputs.
+20. wc — Count lines, words, and characters in a file.
+21. sort — Sort lines of text alphabetically or numerically.
+22. uniq — Filter out repeated lines in a sorted file.
+23. echo — Print text or variables to the screen (or write into a file using >).
+
+Permissions & Users
+
+24. sudo — Run a command with administrator (root) privileges.
+25. chmod — Change read, write, and execute permissions on a file or folder.
+26. chown — Change the owner and group of a file or folder.
+27. whoami — Display your current active username.
+28. passwd — Change your user account password.
+
+System & Process Monitoring
+
+29. ps — View currently running processes.
+30. top — Display a live, real-time view of CPU, memory, and running processes (htop is a popular visual alternative).
+31. kill — Stop a running process using its Process ID (PID).
+32. df — Check available disk space on mounted filesystems (use df -h for human-readable sizes).
+33. du — Check how much disk space specific files or folders are using (e.g., du -sh *).
+34. free — Display total, used, and available RAM.
+35. uname — Show system and kernel information (use uname -a for full details).
+
+Networking & Archiving
+
+36. ping — Test network connectivity to a server or IP address.
+37. curl — Transfer data from or to a URL (great for testing APIs or downloading files).
+38. ssh — Securely connect to a remote Linux machine over the network.
+39. tar — Bundle and compress or extract archive files (e.g., .tar.gz).
+
+Terminal Help & Shortcuts
+
+40. man — Open the built-in reference manual for any command (e.g., man grep). (Bonus everyday helpers: clear to wipe your screen and history to see past commands.)
+
